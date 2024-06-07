@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #000;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main {
+    padding-top: 100px;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.featured {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.movies {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.movies h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.movie h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+body {
+    
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('images/home.jpg'); /* Replace 'background-image.jpg' with your image file's path */
+    background-size: cover; /* Adjust how the image covers the background */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the image fixed within the viewport */
+    background-position: center center; /* Center the image horizontally and vertically */
+    color: #fff; /* Set text color to contrast with the background */
+    font-family: Arial, sans-serif; /* Specify font for text */
+    text-align: center; /* Center-align text on the page */
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 3px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+}
+
+/* Add more styling for the featured movies/TV shows section */
+
